@@ -113,29 +113,37 @@ a{
     font-family: "Roboto", sans-serif;    
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;  
     background: #4d5ae5;
     color: #fff;
     cursor: pointer;
 
  }
- .hero-btn:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+ .hero-btn:hover, :focus {
     background: #404bbf;
  }
 
 /* mission */
-
 .mission {
-    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.feature {
+    
+}
+.feature-type {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.mission-type {
-    font-family: "Roboto", sans-serif;
+.feature-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -202,7 +210,6 @@ a{
 }
 
 .cart-content {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -211,7 +218,6 @@ a{
 }
 
 .cart-content-item {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
