@@ -188,8 +188,6 @@ a{
 }
 
 .project-cart {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
@@ -210,8 +208,6 @@ a{
 }
 /* footer */
 .footer {
-    width: 1440px;
-    height: 312px;
     background: #2e2f42;
 }
 
